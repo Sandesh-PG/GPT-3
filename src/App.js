@@ -1,6 +1,7 @@
 import {Header, Footer, Possibility, WhatGPT3, Blog, Features} from './containers';
 import {Cta, Navbar, Brand} from './components';
 import './App.css';
+import './index.css';
 
 function App() {
   return (

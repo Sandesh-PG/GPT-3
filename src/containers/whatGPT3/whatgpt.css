@@ -1,0 +1,105 @@
+.whatgpt-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.whatgpt-section{
+    width: 1170px;
+    min-height: 600px;
+    margin: 2rem 0;
+    color: #fff;
+    background: 
+    radial-gradient(circle at 2% 3%, rgba(0, 106, 120, 1) 0%, rgba(4, 37, 69, 1) 15%);
+    display: flex;
+    flex-direction: column;
+}
+
+.whatgpt-section-top{
+    display: flex;
+}
+
+.whatgpt-section-bottom{
+    margin:2rem 0;
+    display: flex;
+    gap: 10px;
+}
+
+
+.whatgpt-text{
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.96px;
+}
+
+.whatgpt-left{
+    flex: 1;
+}
+
+
+.whatgpt-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+
+.whatgpt-right > p{
+    color: #81AFDD;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px; 
+}
+
+.whatgpt-left > h2{
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px; 
+    margin-top: 5rem;
+}
+
+.whatgpt-card{
+    margin-top: 25px;
+}
+
+.whatgpt-card-content > h2{
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 75px; 
+    letter-spacing: -0.96px;
+}
+
+.whatgpt-card-content > p{
+    color: #81AFDD;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .whatgpt-section-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whatgpt-left > h2{
+        margin-top: 2.5rem;
+    }
+
+    .whatgpt-section-bottom{
+        margin:2rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
