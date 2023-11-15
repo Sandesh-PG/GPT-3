@@ -5,7 +5,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div className="gpt3__header" style={{ padding: "1rem 6rem" }}>
+    <div className="gpt3__header section__padding">
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
           Let's Build Something <br /> amazing with GPT-3 OpenAI
@@ -21,7 +21,10 @@ const Header = () => {
           <button>Get Started</button>
         </div>
         <div className="gpt3__header-content__people">
-          <img src={people} alt="people" />
+          <center>
+            {" "}
+            <img src={people} alt="people" />{" "}
+          </center>
           <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
       </div>
