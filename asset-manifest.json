@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/GPT-3/static/css/main.85b857e4.css",
-    "main.js": "/GPT-3/static/js/main.7db9df76.js",
+    "main.css": "/GPT-3/static/css/main.152d26be.css",
+    "main.js": "/GPT-3/static/js/main.a93a8a57.js",
     "static/media/ai.png": "/GPT-3/static/media/ai.aa60586ba1ba53762d94.png",
     "static/media/people.png": "/GPT-3/static/media/people.5cd2d6fbcd48bd63f106.png",
     "static/media/logo.svg": "/GPT-3/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
     "index.html": "/GPT-3/index.html",
-    "main.85b857e4.css.map": "/GPT-3/static/css/main.85b857e4.css.map",
-    "main.7db9df76.js.map": "/GPT-3/static/js/main.7db9df76.js.map"
+    "main.152d26be.css.map": "/GPT-3/static/css/main.152d26be.css.map",
+    "main.a93a8a57.js.map": "/GPT-3/static/js/main.a93a8a57.js.map"
   },
   "entrypoints": [
-    "static/css/main.85b857e4.css",
-    "static/js/main.7db9df76.js"
+    "static/css/main.152d26be.css",
+    "static/js/main.a93a8a57.js"
   ]
 }
